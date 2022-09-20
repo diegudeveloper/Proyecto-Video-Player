@@ -3,13 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     width: 100%;
     height: 100vh;
-    
 }
-
 .containerMain {
     width: 100%;
     height: 100%;
@@ -17,14 +14,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
     background: #757F9A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
 }
-
 .containerPlayer {
     width: 450px;
     height: 750px;
@@ -34,6 +27,7 @@ body {
     border-radius: 3rem;
     position: relative;
     background-image: url(./images/fondo.jpg);
+    z-index: 98;
 }
 h1 {
     width: 100%;
@@ -41,25 +35,23 @@ h1 {
     text-align: center;
     margin-top: 1rem;
 }
-
 .TextName {
     width: 100%;
     color: #fff;
 }
-
 .video {
     display: block;
     margin: 2rem auto;
     border-radius: 5px 5px 0 0;
 }
-
 /* buttons*/
 
 .controlButton {
     width: 100%;
     text-align: center;
-    position: absolute;
+    position: absolute; 
     top: 50%;
+    z-index: 99;
 }
 
 .button {
@@ -71,6 +63,11 @@ h1 {
     margin: 0 1rem;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
+    /* z-index: 100; */
+}
+.button:active {
+    transform: scale(.9);
 }
 
 #play {
