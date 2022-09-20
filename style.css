@@ -34,10 +34,14 @@ h1 {
     color: #fff;
     text-align: center;
     margin-top: 1rem;
+    font-weight: 100;
+    font-size: 3rem;
 }
 .TextName {
     width: 100%;
     color: #fff;
+    font-weight: 700;
+    
 }
 .video {
     display: block;
