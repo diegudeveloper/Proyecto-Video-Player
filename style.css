@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.containerMain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+.containerPlayer {
+    width: 450px;
+    height: 750px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    background-color: #E8E8E8;
+    border-radius: 3rem;
+    position: relative;
+    background-image: url(./images/fondo.jpg);
+}
+h1 {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.TextName {
+    width: 100%;
+    color: #fff;
+}
+
+.video {
+    display: block;
+    margin: 2rem auto;
+    border-radius: 5px 5px 0 0;
+}
+
+/* buttons*/
+
+.controlButton {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+}
+
+.button {
+    inline-size: 60px;
+    block-size: 60px;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    margin: 0 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#play {
+    background-image: url(./images/play.svg);
+    background-size: 60px;
+}
+#pause {
+    background-image: url(./images/pause.svg);
+    background-size: 60px;
+}
+#avanza {
+    background-image: url(./images/+10.svg);
+    background-size: 60px;
+}
+#retrocede {
+    background-image: url(./images/-10.svg);
+    background-size: 60px;   
+}
+
