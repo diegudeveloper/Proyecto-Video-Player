@@ -34,12 +34,10 @@ function clickRetrocede () {
 }
 
 function videoProgress () {
-    progres.max = video.duration
-    console.log("vamos bien", video.duration);
-    
+    progres.max = video.duration;    
 }
 function videoTimeUpdate () {
-    
+    console.log("hola");
     
 }
 
