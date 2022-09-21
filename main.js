@@ -22,10 +22,10 @@ function clickPause () {
 }
 
 function clickAvanza () {
-    console.log("vamos bien");
+    video.currentTime = video.currentTime + 10
     
 }
 function clickRetrocede () {
-    console.log("vamos Superbien");
+    video.currentTime = video.currentTime - 10
     
 }
