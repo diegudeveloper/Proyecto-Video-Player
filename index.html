@@ -12,7 +12,10 @@
     <div class="containerMain">
         <h1>Hello<span class="TextName"> Diego</span></h1>
         <div class="containerPlayer">
-            <video class="video" src="./video/lofi.mp4" poster="./images/poster.jpg" muted controls width="420"></video>
+            <video class="video" src="./video/lofi.mp4" poster="./images/poster.jpg" muted width="420"></video>
+            <div class="containerProgres">
+                <input type="range" min="0" value="0" step="1">
+            </div>
             <div class="controlButton">
                 <button class="button" aria-label="Retrocede 10 segundos" id="retrocede" title="Retrocede 10 segundos"></button>
                 <button class="button" aria-label="Reproducir" id="play" title="Reproducir"></button>
