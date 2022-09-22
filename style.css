@@ -24,6 +24,7 @@ body {
     border: 1px solid #fff;
     overflow: hidden;
     position: relative;
+    display: flex;
 }
 h1 {
     width: 100%;
@@ -45,6 +46,7 @@ h1 {
 .video {
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
     
 
 }
@@ -94,7 +96,14 @@ h1 {
 .containerProgres {
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
+
+.containerProgres input {
+    width: 100%;
+}
+
+
 
 /*mediaqueri*/
 
