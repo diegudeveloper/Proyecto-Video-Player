@@ -32,11 +32,13 @@ function clickRetrocede () {
     video.currentTime = video.currentTime - 10
     
 }
-
+// funcion que determina el tiempo del video
 function videoProgress () {
     progres.max = video.duration;    
 }
+// funcion donde agregamos a la barra de progreso el tiempo actual
 function videoTimeUpdate () {
+    progres.value = video.currentTime;
     console.log("hola");
     
 }
