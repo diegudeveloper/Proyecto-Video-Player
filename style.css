@@ -116,3 +116,34 @@ h1 {
 .containerPlayer:hover .button {
     opacity: 1;
 }
+
+/*mediaqueri*/
+
+@media only screen and (max-width: 768px) {
+    .containerPlayer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .controlButton {
+        padding-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 7425px) {
+    .button {
+        margin: 0 1rem;
+    }
+    .containerProgres {
+        bottom: 20%;
+    }
+    h1 {
+        font-size: 0.7rem;
+    }
+    #retrocede {
+        background-size: 26px;
+    }
+    #avanza {
+        background-size: 26px;
+    }
+}
+
