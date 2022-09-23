@@ -60,12 +60,12 @@ h1 {
     /* top: 50%; */
     z-index: 99;
     bottom: 0;
-    padding-bottom: .5rem;
+    padding-bottom: 1rem;
 }
 
 .button {
-    inline-size: 60px;
-    block-size: 60px;
+    inline-size: 45px;
+    block-size: 45px;
     color: transparent;
     background-color: transparent;
     border: none;
@@ -81,19 +81,19 @@ h1 {
 
 #play {
     background-image: url(./images/play.svg);
-    background-size: 60px;
+    background-size: 45px;
 }
 #pause {
     background-image: url(./images/pause.svg);
-    background-size: 60px;
+    background-size: 45px;
 }
 #avanza {
     background-image: url(./images/+10.svg);
-    background-size: 60px;
+    background-size: 45px;
 }
 #retrocede {
     background-image: url(./images/-10.svg);
-    background-size: 60px;   
+    background-size: 45px;   
 }
 
 .containerProgres {
