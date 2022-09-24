@@ -12,6 +12,6 @@
 ## Bienvenido! 👋
 
 
-[Video Player](https://diegudeveloper.github.io/Proyecto-Video-Player/) Proyecto de construccion de Interfaz de un reproductor de video.
+[Video Player](https://diegudeveloper.github.io/Proyecto-Video-Player/) Proyecto de construcción de Interfaz de un reproductor de video.
 
-Este proyecto cuenta principalmente con las herramientas Html y Css y el lenguaje de programacion Javasvript. El mismo cuenta con un diseño responsive.
+Este proyecto cuenta principalmente con las herramientas Html y Css y el lenguaje de programación Javasvript. El mismo cuenta con un diseño responsive.
